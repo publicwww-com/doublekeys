@@ -8,7 +8,7 @@ what you tap is what you get, and Shift is a manual sticky key.
 ![No build step](https://img.shields.io/badge/build-none-brightgreen.svg)
 ![Languages](https://img.shields.io/badge/layouts-15-blueviolet.svg)
 
-![The keyboard under the composer](docs/screenshots/hero.png)
+![doublekeys under the composer: the digits split to the edges, the letters in the middle](docs/screenshots/hero.png)
 
 ## Why
 
