@@ -4,6 +4,7 @@
 panel, built for phones and tablets. No predictions, no autocorrection, no T9, no automatic capitalisation:
 what you tap is what you get, and Shift is a manual sticky key.
 
+[![Release](https://img.shields.io/github/v/release/publicwww-com/doublekeys?sort=semver)](https://github.com/publicwww-com/doublekeys/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![No build step](https://img.shields.io/badge/build-none-brightgreen.svg)
 ![Languages](https://img.shields.io/badge/layouts-15-blueviolet.svg)
