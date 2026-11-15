@@ -69,6 +69,8 @@ Reload the panel (or restart `dsh web`). The keyboard toggle appears in the comp
 
 ## Using it
 
+![One keyboard with pages](docs/screenshots/letters.png)
+
 - The **keyboard button** in the composer toolbar shows and hides the surface.
 - **Globe** — switches to the next enabled layout (with a single layout it opens the settings instead). The
   small code above it is the current language.
