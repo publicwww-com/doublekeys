@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "doublekeys",
+    "description": "On-screen keyboard for the composer on phones and tablets: split layouts, 15 languages, no predictions, no autocapitalisation, manual Shift only."
+  },
+  "toggle": "Keyboard",
+  "key.shift": "Shift",
+  "key.backspace": "Backspace",
+  "key.space": "Space",
+  "key.letters": "ABC",
+  "key.symbols": "More symbols",
+  "key.digits": "Digits and symbols",
+  "key.lang": "Layout: {current}. Switch to {next}",
+  "key.newline": "New line",
+  "settings": "Keyboard settings",
+  "settings.title": "Keyboard",
+  "settings.languages": "Languages",
+  "settings.close": "Close",
+  "mode.one": "Always one",
+  "mode.split-digits": "Split the digits",
+  "mode.split-letters": "Split the letters",
+  "mode.side-by-side": "Side by side"
+}

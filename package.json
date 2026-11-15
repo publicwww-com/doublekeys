@@ -1,0 +1,48 @@
+{
+  "name": "doublekeys",
+  "version": "1.0.0",
+  "description": "On-screen keyboard for the DeepSeek Harness web composer: split layouts, 15 languages, no predictions, no autocapitalisation.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "keyboard",
+    "on-screen-keyboard",
+    "touch"
+  ],
+  "license": "MIT",
+  "author": "PublicWWW Team <git@publicwww.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publicwww-com/doublekeys.git"
+  },
+  "homepage": "https://github.com/publicwww-com/doublekeys#readme",
+  "bugs": {
+    "url": "https://github.com/publicwww-com/doublekeys/issues"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

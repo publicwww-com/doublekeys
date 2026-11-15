@@ -1,0 +1,11 @@
+# doublekeys — an on-screen keyboard for the web composer.
+# The whole feature lives in the browser half (`./client`); this row only puts
+# the package into the profile so the web client roster picks up its
+# `dsh.client` declaration. Turn the feature off with one line in the profile
+# patch layer:
+#
+#   - id: doublekeys
+#     disabled: true
+- insert:
+    - id: doublekeys
+      name: 'doublekeys'
